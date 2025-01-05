@@ -1,6 +1,6 @@
 
 import './App.css'
-import NavbarC from './components/navbar'
+import NavbarC from './components/Navbar'
 
 function App() {
 
