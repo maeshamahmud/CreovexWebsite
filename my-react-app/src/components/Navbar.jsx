@@ -1,5 +1,4 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
 const NavbarC = () => {
@@ -14,13 +13,13 @@ const NavbarC = () => {
     //     <button>Book a call </button>
     //   </div>
     // </nav>
-    <Container>
+    // <Container>
     <Navbar expand="lg" className="bg-body-tertiary" fixed = "top">
-      <Container>
+      {/* <Container> */}
         <Navbar.Brand href="#">Creovex</Navbar.Brand>
-      </Container>
+      {/* </Container> */}
     </Navbar>
-  </Container>
+  // </Container>
 
 
   );
