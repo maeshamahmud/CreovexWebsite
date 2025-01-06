@@ -1,13 +1,14 @@
 
 import './App.css'
-import NavbarC from './components/Navbar'
+import NavbarTop from './components/Navbar'
+
 
 function App() {
 
   return (
     <>
-      <div>
-      <NavbarC/>
+      <div fixed="top">
+      <NavbarTop/>
       </div>
     </>
   )

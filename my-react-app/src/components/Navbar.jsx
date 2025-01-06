@@ -1,29 +1,30 @@
 import React from "react";
 import Navbar from 'react-bootstrap/Navbar';
 
-const NavbarC = () => {
+const NavbarTop = () => {
   return (
-    // <nav>
-    //   <h1>Creovex</h1>
-    //   <div>
-    //     <a href="#">Home </a>
-    //     <a href="#">Case Studies </a>
-    //     <a href="#">Blog </a>
-    //     <a href="#">About us </a>
-    //     <button>Book a call </button>
-    //   </div>
-    // </nav>
-    // <Container>
-    <Navbar expand="lg" className="bg-body-tertiary" fixed = "top">
-      {/* <Container> */}
-        <Navbar.Brand href="#">Creovex</Navbar.Brand>
-      {/* </Container> */}
+    <div>
+    <Navbar className="p-3"
+            style={{ background:"lightgray"}}>
+        <Navbar.Brand href="#home"
+                      style={{color: "red"}}>
+                        Creovex
+        </Navbar.Brand>
+        <Navbar.Brand href="#home"
+                      style={{color: "red"}}>
+            Home
+        </Navbar.Brand>
+        <Navbar.Brand href="#home"
+                      style={{color: "red"}}>
+            Prices
+        </Navbar.Brand>
     </Navbar>
-  // </Container>
+    <br />
+</div>
 
 
   );
 };
 
-export default NavbarC;
+export default NavbarTop;
 
